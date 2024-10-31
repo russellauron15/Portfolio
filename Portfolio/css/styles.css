@@ -1,0 +1,42 @@
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5, #e5acac);
+    font-family: "Montserrat", sans-serif;
+  }
+
+  main {
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .glass-effect {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    background-size: 200%;
+  }
+
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
